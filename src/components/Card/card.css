@@ -1,0 +1,23 @@
+.card {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgba(17, 16, 16, 0.911);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.title {
+    color: #f4c31e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}

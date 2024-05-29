@@ -1,0 +1,32 @@
+.nav-element {
+    height: 46px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.nav-element:hover {
+    background-color: #7d7d7d;
+}
+
+.nav-element > img {
+    object-fit: contain;
+    width: 18px;
+    margin: 0px 18px 0px 18px;
+}
+
+.nav-title {
+    font-size: 14px;
+    border-bottom: 1px dashed #7d7d7d;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}

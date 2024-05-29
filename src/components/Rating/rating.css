@@ -1,0 +1,39 @@
+.ratings {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rating {
+    height: 100%;
+    width: calc(33% - 10px);
+    background-color: #333333;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.rating-avatar {
+    object-fit: contain;
+    width: 60px;
+    border: 3px solid #f4c31e;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.rating-desc {
+    word-wrap: break-word;
+    max-height: 110px;
+    min-height: 110px;
+    color: #848484;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.rating-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f4c31e;
+}

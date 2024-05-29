@@ -1,0 +1,13 @@
+.social-icon > img {
+    object-fit: contain;
+    width: 20px;
+    cursor: pointer;
+}
+
+.social-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.bar-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bar-border {
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.skill-bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.bar {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
